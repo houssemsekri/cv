@@ -1,0 +1,85 @@
+.icon {
+  font-size: 4.5rem;
+  font-weight: lighter;
+  background: $color-blue-dark-2;
+  cursor: pointer;
+  &--nav {
+    position: absolute;
+    right: 0;
+    transform: translateX(95%);
+    z-index: 50;
+    height: 5.5rem;
+    width: 5.5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2rem;
+    border: $default-border;
+  }
+  &-hamburger-menu-close {
+    height: 100%;
+    margin-top: -1.2rem;
+  }
+}
+
+.btn-cercle {
+  &:link,
+  &:visited {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 4.7rem;
+    text-align: center;
+    border: $border-btn;
+    font-size: 2rem;
+    color: $color-grey-dark;
+    transition: 0.4s ease-out all;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 2rem rgba($color: $color-black, $alpha: 0.5);
+    backface-visibility: hidden;
+  }
+
+  &:hover {
+    color: $color-blue-light;
+    border: $border-btn-2;
+  }
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+.btn--primary {
+  align-self: flex-start;
+  position: relative;
+
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-white;
+    background-color: $color-blue;
+    display: inline-bloc;
+    padding: 1rem 2rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+
+    z-index: 9;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: $color-white;
+    width: 100%;
+    z-index: 10;
+    transform: scaleX(0);
+    transition: ease-out 0.5s all;
+    transform-origin: left;
+  }
+  &:hover::after {
+    transform: scaleX(1);
+  }
+}

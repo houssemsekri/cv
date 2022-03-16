@@ -1,0 +1,31 @@
+[
+    {
+        "skills": [
+            "JAVASCRIPT (ES6+)",
+            "REDUX (THUNK)",
+            "MONGODB & MONGOOSE",
+            "CSS3(FLEX BOX CSS GRID)",
+            "REACT (HOOKS) ",
+            "NODEJS & EXPRESS",
+            "HTML5 ",
+            "SASS"
+        ],
+        "_id": "5efb44f282e09a2f6cd9714f",
+        "homeImage": "user.jpg",
+        "homeFacebook": "https://www.facebook.com/houssem.sekri.3386",
+        "homeLinkedin": "https://www.linkedin.com/in/houssem-sekri-9568361aa/",
+        "aboutParagraph": "Dedicated and efficient full stack developer with 2 + years' experience in application layers, presentation layers, and databases. Proficient in building and optimizing user-focused websites and applications. Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth.Technically proficient and analytical problem solver with calm and focused demeanour.",
+        "aboutSkill1": "I build responsive  modern  websites for desktop, tablet, and mobile ",
+        "aboutSkill3": "I build restful APIs with node  express js and mongodb",
+        "contactAdress": "El Menzah 7, Ariana Tunis",
+        "contactPhone": "+216 56476529",
+        "contactEmail": "midnightrider865@gmail.com",
+        "aboutSkill2": "I build modern web Apps  with react and redux",
+        "aboutCv": "https://drive.google.com/file/d/1ViT2zsR7p2a9w8ltde5pSlhId_4NwnDZ/view?usp=sharing",
+        "homeGithub": "https://github.com/houssemsekri?tab=repositories",
+        "homeParagraph": "Dedicated and efficient full stack developer with 2 + years' experience in application layers, presentation layers, and databases. Proficient in building and optimizing user-focused websites and applications. Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth.Technically proficient and analytical problem solver with calm and focused demeanour.",
+        "__v": 0,
+        "aboutImage": "home.png",
+        "age": "27"
+    }
+]

@@ -1,0 +1,11 @@
+.footer {
+  flex: 0 0 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: $default-border;
+  &__text {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  overflow-x: none;
+}
+html {
+  font-size: 62.5%;
+  @media (max-width: $bp-md-l) {
+    font-size: 53%;
+  }
+  @media (max-width: $bp-md-s) {
+    font-size: 49%;
+  }
+}
+body {
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+#tsparticles {
+  height: 100vh !important;
+}
+
+.form-admin {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form {
+  &__group--admin {
+    flex: 0 0 40%;
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+  &__input--admin {
+    width: 90%;
+    padding: 1.5rem 2rem;
+    background: none;
+    outline: none;
+    border: $default-border;
+    color: inherit;
+  }
+  &__label--admin {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+.form__control {
+  display: block;
+  width: 100%;
+}
+.sweet-loading {
+  height: 100vh;
+  width: 100%;
+  background-color: $color-blue-dark-3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+.css-rv8gcu {
+  display: inline-block;
+  background-color: grey !important;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  border-radius: 100%;
+  -webkit-animation-fill-mode: "both";
+  animation-fill-mode: "both";
+  -webkit-animation: animation-zddztj 1.2058459640532093s 0.40584596405320944s
+    infinite ease;
+  animation: animation-zddztj 1.2058459640532093s 0.40584596405320944s infinite
+    ease;
+}
+.Toastify__toast {
+  padding: 2rem !important;
+  border-radius: 0.5rem !important;
+  font-family: inherit !important;
+}
+.form__login {
+  background-color: rgba($color-blue-dark-3, 0.3);
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  border-radius: 6px;
+  border: $default-border;
+  padding: 2rem;
+  & > * {
+    margin-left: 4rem;
+  }
+  @media (max-width: $bp-small-m) {
+    width: 90vw;
+  }
+}
+.btn-loggin {
+  align-self: start;
+  background-color: $color-blue-dark-2;
+  padding: 1.5rem 3rem;
+  border-radius: 3px;
+
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: inherit;
+  display: inline-block !important;
+  border: none;
+  outline: none;
+  opacity: 1;
+  transition: opacity, 0.2s;
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}

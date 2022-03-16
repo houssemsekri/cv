@@ -1,0 +1,123 @@
+.contact {
+  position: relative;
+  &::before {
+    content: "CONTACT";
+    position: absolute;
+    top: 1.2rem;
+
+    font-size: 8rem;
+    letter-spacing: 1.2;
+    opacity: 0.08;
+  }
+}
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: $bp-md-s) {
+    flex-direction: column;
+  }
+}
+.form {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: $bp-md-s) {
+    order: 2;
+    margin-top: 3rem;
+  }
+  &__group {
+    position: relative;
+    &:not(:last-child) {
+      margin-bottom: 2.5rem;
+    }
+  }
+  &__heading {
+    color: $color-white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  &__input,
+  &__area {
+    display: block;
+    background: none;
+    outline: none;
+    padding: 1.5rem 2rem;
+    width: 90%;
+    border: none;
+    font-family: inherit;
+    color: inherit;
+    border: $default-border;
+  }
+  &__label {
+    position: absolute;
+    top: -2.5rem;
+    left: 2rem;
+    display: inline-block;
+    background-color: $color-blue-dark-3;
+    padding: 0.5rem;
+    border-radius: 50000px;
+  }
+}
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card {
+  &__info {
+    background: $color-blue-dark-2;
+    padding: 3.5rem;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    position: relative;
+    @media (max-width: $bp-md-s) {
+      margin-top: 1.5rem;
+      width: 90%;
+      padding: 2.5rem;
+    }
+    &::after {
+      position: absolute;
+      bottom: 0;
+      content: "";
+      height: 0.35rem;
+      background-color: $color-blue;
+      width: 100%;
+      left: 0;
+      transform: scaleX(0);
+      transition: transform 1s;
+      transform-origin: left;
+    }
+    &:hover::after {
+      transform: scaleX(1);
+    }
+  }
+  &__icon2 {
+    border: $default-border;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+  }
+  &__heading {
+    color: $color-white;
+    font-size: 600;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin-bottom: 0.8rem;
+  }
+  &__text {
+    span {
+      transition: all 0.5s;
+    }
+    span:hover {
+      color: $color-blue;
+    }
+  }
+}

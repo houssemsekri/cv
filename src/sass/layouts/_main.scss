@@ -1,0 +1,42 @@
+.main {
+  position: absolute;
+  left: 30rem;
+  top: 0;
+  width: calc(100vw - 30rem);
+  min-height: 100vh;
+  background-color: $color-blue-dark-3;
+  transition: all 0.4s ease-out;
+  z-index: 10;
+  @media (max-width: $bp-md-s) {
+    transform: translateX(-29.8rem);
+    z-index: 10;
+    width: 100vw;
+  }
+
+  &::after {
+    content: "";
+    position: relative;
+  }
+  &__decoration {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    &__ligne {
+      font-size: 20px;
+      width: 20%;
+      height: 100%;
+      border-right: $border-2;
+    }
+  }
+  .particule {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+  }
+}

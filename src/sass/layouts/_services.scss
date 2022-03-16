@@ -1,0 +1,13 @@
+.services {
+  margin-top: 3rem;
+  position: relative;
+  &::after {
+    content: "SERVICES";
+    position: absolute;
+    top: 1.2rem;
+    font-size: 8rem;
+    letter-spacing: 1.2;
+    opacity: 0.08;
+    background-repeat: no-repeat;
+  }
+}

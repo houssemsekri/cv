@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "5f0d9812693ceb00174cbd26",
+    "year": "2021 - present",
+    "title": "La boite immo",
+    "desc": ["La Boite Immo is a company that offers various services for real estate agencies, networks and agents.",
+    "Separation of the presentation layer by creating a spa with REACT",
+    "Ensure clean code and good code quality and coverage",
+    "Creation of reusable components",
+    "Translate wireframes and PSD designs into working web apps",
+    "Ensure cross-platform optimization for mobile phones",
+    "Optimisation des temps de chargements (HTML, CSS, JavaScript)",
+    "Tools :React , Redux,Node, Postman ,Sass, Less ,Css,Npm, Git,Svn ,Photoshop, Adobe XD"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5f0d9812693ceb00174cbd261",
+    "year": "April 2019-April 2020",
+    "title": "Elepsis",
+    "desc": ["Analyze customer needs",
+    "Creation of websites",
+    "WordPress , Php , Javascript ,sql"
+    ],
+    "__v": 0
+  }
+]

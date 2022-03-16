@@ -1,0 +1,23 @@
+$color-blue-light: #037fff;
+$color-blue-dark-1: #2e344e;
+$color-blue-dark-2: #191d2b;
+$color-blue-dark-3: #10121b;
+$color-border: #1b1f2f;
+$color-blue: #007bff;
+$color-grey-dark: #a4acc4;
+
+$color-white: #fff;
+$color-black: black;
+//font
+$default-font-size: 1.6rem;
+// border
+$default-border: solid 0.1rem $color-blue-dark-1;
+$border-2: solid 0.04rem rgba($color-blue-dark-1, 0.3);
+$border-btn: solid 0.2rem $color-blue-dark-1;
+$border-btn-2: solid 0.2rem $color-blue-light;
+
+$bp-smallest: 25em;
+$bp-small-m: 32rem;
+$bp-small: 43.25em;
+$bp-md-s: 70.13em;
+$bp-md-l: 86em;
